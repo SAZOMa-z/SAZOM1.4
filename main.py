@@ -9,6 +9,7 @@ from gtts import gTTS
 from googletrans import Translator
 from datetime import datetime
 from googlesearch import search
+from server import SERVER
 import speedtest
 import moviepy.editor
 import telebot
@@ -528,4 +529,5 @@ zaidmakzoom@gmail.com
 except:
     print("ERROR*2")         
 print("The bot is running!!!!")
+SERVER()
 bot.infinity_polling()      
