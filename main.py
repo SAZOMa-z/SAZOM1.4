@@ -139,6 +139,7 @@ try:
     Zaid Makhzoom  زيد مخزوم
     @Zaidmakhzoom
     +963 992 883 477""")
+        home(message)
     @bot.callback_query_handler(func=lambda call: call.data == "send_to_all")
     def prompt_for_message(call):
         if call.from_user.id == ADMIN_ID:
